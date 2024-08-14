@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url(imagens/nova.jpg);
+    background-image: url(imagens/parede_sangue.jpg);
     background-size: cover;
 }
 
@@ -17,7 +17,7 @@ header {
     display: flex;
     width: 100%; 
     height: 90px;
-    background: #000000ad; 
+    background: #746d6d2d; 
     backdrop-filter: blur(10px);
     align-items: center;
     position: relative; 
@@ -49,7 +49,7 @@ nav ul li {
     width: auto; 
     margin: 0.9em;
     list-style: none;
-    font-size: 18px;
+    font-size: 22px;
     font-family: roboto;
 }
  
@@ -63,5 +63,8 @@ nav ul li a:hover {
 }
 
 .imagem {
+    width: 100px;
+    height: auto;
     margin-top: 170px;
+    margin-left: 50px;
 }
