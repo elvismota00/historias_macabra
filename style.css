@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/roboto/Roboto-Regular.ttf);
+}
+
+body {
+    background-image: url(imagens/nova.jpg);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    width: 100%; 
+    height: 90px;
+    background: #000000ad; 
+    backdrop-filter: blur(10px);
+    align-items: center;
+    position: relative; 
+}
+
+.logo {
+    width: 180px; 
+    height: auto;
+    margin-left: 20px;
+}
+
+nav {
+    position: absolute; 
+    right: 10px; 
+}
+
+.logo img {
+    width: 90%; 
+    margin-left: 10%; 
+}
+
+#pri {
+    margin-left: 80px;
+}
+
+nav ul li {
+    float: left; 
+    color: #fff; 
+    width: auto; 
+    margin: 0.9em;
+    list-style: none;
+    font-size: 18px;
+    font-family: roboto;
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid white;
+}
+
+.imagem {
+    margin-top: 170px;
+}
