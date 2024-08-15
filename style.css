@@ -64,7 +64,7 @@ nav ul li a:hover {
 
 .box_principal {
     width: 100%;
-    height: 1200px;
+    height: 1400px;
     display: block;
   
 }
@@ -264,6 +264,59 @@ nav ul li a:hover {
     background-color: red;
     border: 0;
     font-size: 20px;
+    box-shadow: 1px 1px 10px #000000; 
+    font-family: roboto;
+}
+
+.box_resumo .but {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: red;
+    border: 0;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px #000000; 
+    font-family: roboto;
+}
+
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 2px;
+    border-width: 0;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+
+.doar {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    width: 200px;
+    height: auto;
+    margin-right: 60px;
+}
+
+.text h2 {
+    color: #fff;
+    font-family: roboto;
+    font-weight: normal;
+}
+
+.doar button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    color: #ff0000;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    font-size: 30px;
     box-shadow: 1px 1px 10px #000000; 
     font-family: roboto;
 }
