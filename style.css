@@ -8,6 +8,11 @@
     src: url(fonts/roboto/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: code_light;
+    src: url(fonts/code/CascadiaCode-Light.otf);
+}
+
 body {
     background-image: url(imagens/parede_sangue.jpg);
     background-size: cover;
@@ -64,7 +69,7 @@ nav ul li a:hover {
 
 .box_principal {
     width: 100%;
-    height: 1400px;
+    height: 1230px;
     display: block;
   
 }
@@ -319,4 +324,36 @@ hr {
     font-size: 30px;
     box-shadow: 1px 1px 10px #000000; 
     font-family: roboto;
+}
+
+footer {
+    width: 100%; 
+    height: 200px; 
+    background-color: #252525a6; 
+    position: relative;
+    font-family: code_light;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.box_footer {
+    width: 900px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+}
+
+footer h5 {
+    font-weight: lighter;
+}
+
+footer hr {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 1px;
+    border-width: 0;
+    color: rgb(255, 0, 0);
+    background-color: rgb(146, 146, 146);
+    margin-bottom: 23px;
 }
