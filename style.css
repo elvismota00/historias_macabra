@@ -337,11 +337,19 @@ footer {
     text-align: center;
 }
 
+footer a {
+    text-decoration: none;
+    color: #ff3c3c;
+}
+
 .box_footer {
+    margin-left: 195px;
     width: 900px;
     height: 140px;
     display: flex;
     align-items: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer h5 {
@@ -376,11 +384,89 @@ footer hr {
 }
 
 .insta img {
+    margin-top: 2px;
     width: 20px;
     height: 20px;
 }
 
 .background {
-    width: 130px;
+    width: 150px;
     height: 70px;
+}
+
+.background h5 {
+    font-size: 15px;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: 'verdana';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(181, 9, 9, 0.8);
+    z-index: 9999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    display: none;
+}
+
+.modalDialog:target {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog div {
+    width: 300px;
+    height: 510px;
+    position: absolute;
+    margin-left: 505px;
+    margin-top: 50px;
+    padding: 5px 20px 13px 20px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.modalDialog h1 {
+    font-family: roboto;
+    font-size: 39px;
+    text-align: center;
+}
+
+.modalDialog p {
+    font-family: roboto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.modalDialog img {
+    width: 100%;
+    position: relative;
+}
+
+.close {
+    background-color: #606061;
+    color: #ffffff;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radiuz: 12px;
+    border-radius: 12px;
+}
+
+.close:hover {
+    background-color: #b50909;
 }
