@@ -480,6 +480,9 @@ footer hr {
 /* ---edição para celulares--- */
 
 @media (max-width: 320px) {
+
+    /* ---cabeçalho--- */
+
     header {
         display: flex;
         width: 100%; 
@@ -514,6 +517,430 @@ footer hr {
         height: 30px;
         margin-right: 7px;
         margin-top: 5px;
+    }
+
+    /* ---texto e imagem--- */
+
+    .box_principal {
+        width: 320px;
+        height: 2500px;
+        display: block;
+      
+    }
+    
+    .box {
+        width: 300px;
+        height: 250px;
+        margin-left: 0;
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .imagem img {
+        margin-left: 27px;
+        width: 250px;
+        height: auto;
+    }
+    
+    .texto {
+        width: 300px;
+        height: auto;
+        text-align: center;
+    }
+    
+    .texto h1 {
+        font-family: roboto;
+        color: #fff;
+        font-weight: normal;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    
+    .texto h3 {
+        margin-top: 15px;
+        font-family: roboto;
+        color: #fff;
+        font-weight: normal;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    
+    .texto span {
+        font-family: roboto;
+        color: red;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px #000000;
+    }
+    
+    .texto button {
+        margin-top: 25px;
+        width: 230px;
+        height: 50px;
+        border-radius: 5px;
+        color: #fff;
+        background-color: red;
+        border: 0;
+        font-size: 20px;
+        box-shadow: 1px 1px 10px #000000; 
+        font-family: roboto;
+    }
+
+    /* ---caixas de resumo--- */
+    
+    .box_resumo {
+        margin-top: 160px;
+        display: block;
+        text-align: center;
+    }
+    
+    .box_resumo h2 {
+        color: #ffffff;
+        font-family: roboto;
+        font-size: 40px;
+        font-weight: normal;
+    }
+    
+    .resumo {
+        margin-top: 20px;
+        display: block;
+    }
+    
+    .res1 {
+        margin: 0;
+        margin-left: 12px;
+        width: 270px;
+        height: 400px;
+        border-radius: 10px;
+        background-color: #000000e8;
+        border: 4px solid red;
+        margin-bottom: 30px;
+    }
+    
+    .res1 h2 {
+        color: #ffffff;
+        font-family: roboto;
+        font-size: 30px;
+        font-weight: normal;
+        margin-top: 30px;
+    }
+    
+    .res1 p {
+        color: #ffffff;
+        font-family: roboto;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 23px;
+        margin-right: 23px;
+        margin-top: 30px;
+        margin-bottom: 44px;
+    }
+    
+    .res1 button {
+        width: 250px;
+        height: 50px;
+        border-radius: 5px;
+        color: #fff;
+        background-color: red;
+        border: 0;
+        font-size: 20px;
+        box-shadow: 1px 1px 10px #000000; 
+        font-family: roboto;
+    }
+    
+    .res2 {
+        margin: 0;
+        width: 270px;
+        height: 400px;
+        margin-left: 12px;
+        border-radius: 10px;
+        background-color: #000000e8;
+        border: 4px solid red;
+        margin-bottom: 30px;
+    }
+    
+    .res2 h2 {
+        color: #ffffff;
+        font-family: roboto;
+        font-size: 30px;
+        font-weight: normal;
+        margin-top: 30px;
+    }
+    
+    .res2 p {
+        color: #ffffff;
+        font-family: roboto;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 23px;
+        margin-right: 23px;
+        margin-top: 30px;
+        margin-bottom: 79px;
+    }
+    
+    .res2 button {
+        margin-top: 20px;
+        width: 250px;
+        height: 50px;
+        border-radius: 5px;
+        color: #fff;
+        background-color: red;
+        border: 0;
+        font-size: 20px;
+        box-shadow: 1px 1px 10px #000000; 
+        font-family: roboto;
+    }
+    
+    .res3 {
+        margin: 0;
+        width: 270px;
+        height: 400px;
+        margin-left: 12px;
+        border-radius: 10px;
+        background-color: #000000e8;
+        border: 4px solid red;
+    }
+    
+    .res3 h2 {
+        color: #ffffff;
+        font-family: roboto;
+        font-size: 30px;
+        font-weight: normal;
+        margin-top: 30px;
+    }
+    
+    .res3 p {
+        color: #ffffff;
+        font-family: roboto;
+        font-size: 15px;
+        font-weight: normal;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 7px;
+    }
+    
+    .res3 button {
+        margin-top: 20px;
+        width: 250px;
+        height: 50px;
+        border-radius: 5px;
+        color: #fff;
+        background-color: red;
+        border: 0;
+        font-size: 20px;
+        box-shadow: 1px 1px 10px #000000; 
+        font-family: roboto;
+    }
+    
+    .box_resumo .but {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-right: 16px;
+        width: 280px;
+        height: 60px;
+        border-radius: 5px;
+        color: #fff;
+        background-color: red;
+        border: 0;
+        font-size: 20px;
+        box-shadow: 1px 1px 10px #000000; 
+        font-family: roboto;
+    }
+    
+    hr {
+        margin-left: 33px;
+        margin-right: 50px;
+        height: 2px;
+        border-width: 0;
+        color: rgb(255, 0, 0);
+        background-color: rgb(255, 0, 0);
+    }
+    
+    .doar {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .text {
+        width: 200px;
+        height: auto;
+        text-align: center;
+        margin-left: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .text h2 {
+        color: #fff;
+        font-family: roboto;
+        font-weight: normal;
+    }
+    
+    .doar button {
+        width: 200px;
+        height: 60px;
+        border-radius: 5px;
+        color: #ff0000;
+        background-color: rgb(255, 255, 255);
+        border: 0;
+        font-size: 30px;
+        box-shadow: 1px 1px 10px #000000; 
+        font-family: roboto;
+        margin-right: 20px;
+    }
+    
+    footer {
+        width: 100%; 
+        height: 360px; 
+        background-color: #252525a6; 
+        position: relative;
+        font-family: code_light;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #ff3c3c;
+    }
+    
+    .box_footer {
+        margin-left: 0;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .box_footer .logo {
+        margin-right: 20px;
+        width: 150px;
+        height: auto;
+    }
+    
+    footer h5 {
+        font-weight: lighter;
+    }
+    
+    footer hr {
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 1px;
+        border-width: 0;
+        color: rgb(255, 0, 0);
+        background-color: rgb(146, 146, 146);
+        margin-bottom: 23px;
+    }
+    
+    .opcoes {
+        display: flex;
+        justify-content: space-evenly;
+        width: 200px;
+        height: 50px;
+    }
+    
+    .insta {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-color: #ff0000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .insta img {
+        margin-top: 2px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .background {
+        width: 150px;
+        height: 70px;
+    }
+    
+    .background h5 {
+        font-size: 15px;
+    }
+    
+    .modalDialog {
+        position: fixed;
+        font-family: 'verdana';
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(181, 9, 9, 0.8);
+        z-index: 9999;
+        opacity: 0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+        display: none;
+    }
+    
+    .modalDialog:target {
+        display: block;
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .modalDialog div {
+        width: 300px;
+        height: 510px;
+        position: absolute;
+        margin-left: 505px;
+        margin-top: 50px;
+        padding: 5px 20px 13px 20px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+    
+    .modalDialog h1 {
+        font-family: roboto;
+        font-size: 39px;
+        text-align: center;
+    }
+    
+    .modalDialog p {
+        font-family: roboto;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .modalDialog img {
+        width: 100%;
+        position: relative;
+    }
+    
+    .close {
+        background-color: #606061;
+        color: #ffffff;
+        line-height: 25px;
+        position: absolute;
+        right: -12px;
+        text-align: center;
+        top: -10px;
+        width: 24px;
+        text-decoration: none;
+        font-weight: bold;
+        -webkit-border-radius: 12px;
+        -moz-border-radiuz: 12px;
+        border-radius: 12px;
+    }
+    
+    .close:hover {
+        background-color: #b50909;
     }
     
 }
