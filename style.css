@@ -878,7 +878,6 @@ footer hr {
     }
     
     .modalDialog {
-        position: fixed;
         font-family: 'verdana';
         top: 0;
         right: 0;
@@ -890,8 +889,8 @@ footer hr {
         -webkit-transition: opacity 400ms ease-in;
         -moz-transition: opacity 400ms ease-in;
         transition: opacity 400ms ease-in;
-        pointer-events: none;
-        display: none;
+        position: fixed;
+        padding-left: 10px;
     }
     
     .modalDialog:target {
@@ -903,8 +902,7 @@ footer hr {
     .modalDialog div {
         width: 300px;
         height: 510px;
-        position: absolute;
-        margin-left: 505px;
+        margin-left: 0;
         margin-top: 50px;
         padding: 5px 20px 13px 20px;
         -webkit-border-radius: 12px;
