@@ -18,7 +18,7 @@ body {
     background-size: cover;
 }
 
-@media (min-width: 321px) {
+@media (min-width: 451px) {
     .menu {
         display: none;
     }
@@ -479,7 +479,12 @@ footer hr {
 
 /* ---edição para celulares--- */
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
+
+    body {
+        background-image: url(imagens/parede_sangue.jpg);
+        background-size: cover;
+    }
 
     /* ---cabeçalho--- */
 
@@ -522,10 +527,11 @@ footer hr {
     /* ---texto e imagem--- */
 
     .box_principal {
-        width: 320px;
-        height: 2500px;
+        height: 2380px;
         display: block;
-      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .box {
@@ -534,12 +540,14 @@ footer hr {
         margin-left: 0;
         display: block;
         margin-top: 10px;
+        margin-bottom: 190px;
     }
     
     .imagem img {
-        margin-left: 27px;
-        width: 250px;
+        margin-left: 13px;
+        width: 270px;
         height: auto;
+        margin-top: 20px;
     }
     
     .texto {
@@ -573,7 +581,7 @@ footer hr {
     }
     
     .texto button {
-        margin-top: 25px;
+        margin-top: 40px;
         width: 230px;
         height: 50px;
         border-radius: 5px;
@@ -596,7 +604,7 @@ footer hr {
     .box_resumo h2 {
         color: #ffffff;
         font-family: roboto;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: normal;
     }
     
@@ -733,9 +741,9 @@ footer hr {
     }
     
     .box_resumo .but {
-        margin-top: 30px;
-        margin-bottom: 50px;
-        margin-right: 16px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-right: 0;
         width: 280px;
         height: 60px;
         border-radius: 5px;
@@ -749,7 +757,7 @@ footer hr {
     
     hr {
         margin-left: 33px;
-        margin-right: 50px;
+        margin-right: 33px;
         height: 2px;
         border-width: 0;
         color: rgb(255, 0, 0);
@@ -768,7 +776,7 @@ footer hr {
         width: 200px;
         height: auto;
         text-align: center;
-        margin-left: 40px;
+        margin-left: 60px;
         margin-bottom: 30px;
     }
     
@@ -788,7 +796,6 @@ footer hr {
         font-size: 30px;
         box-shadow: 1px 1px 10px #000000; 
         font-family: roboto;
-        margin-right: 20px;
     }
     
     footer {
