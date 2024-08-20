@@ -18,7 +18,7 @@ body {
     background-size: cover;
 }
 
-@media (min-width: 451px) {
+@media (min-width: 501px) {
     .menu {
         display: none;
     }
@@ -479,7 +479,7 @@ footer hr {
 
 /* ---edição para celulares--- */
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 
     body {
         background-image: url(imagens/parede_sangue.jpg);
